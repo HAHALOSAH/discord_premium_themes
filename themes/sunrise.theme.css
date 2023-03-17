@@ -1,0 +1,16 @@
+/**
+ * @name Sunrise
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-sunrise-1: hsl(var(--bg-gradient-sunrise-1-hsl)/1);
+    --bg-gradient-sunrise-1-hsl: 327 calc(var(--saturation-factor, 1)*42%) 43.9%;
+    --bg-gradient-sunrise-2: hsl(var(--bg-gradient-sunrise-2-hsl)/1);
+    --bg-gradient-sunrise-2-hsl: 27 calc(var(--saturation-factor, 1)*44.9%) 58%;
+    --bg-gradient-sunrise-3: hsl(var(--bg-gradient-sunrise-3-hsl)/1);
+    --bg-gradient-sunrise-3-hsl: 50 calc(var(--saturation-factor, 1)*46.3%) 44.5%;
+
+    --custom-theme-background: linear-gradient(154.19deg, var(--bg-gradient-sunrise-1) 8.62%, var(--bg-gradient-sunrise-2) 48.07%, var(--bg-gradient-sunrise-3) 76.04%);
+}

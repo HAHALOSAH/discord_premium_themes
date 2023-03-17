@@ -1,0 +1,14 @@
+/**
+ * @name Dusk
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-dusk-1: hsl(var(--bg-gradient-dusk-1-hsl)/1);
+    --bg-gradient-dusk-1-hsl: 293 calc(var(--saturation-factor, 1)*13.5%) 36.3%;
+    --bg-gradient-dusk-2: hsl(var(--bg-gradient-dusk-2-hsl)/1);
+    --bg-gradient-dusk-2-hsl: 223 calc(var(--saturation-factor, 1)*41%) 69.4%;
+
+    --custom-theme-background: linear-gradient(180deg, var(--bg-gradient-dusk-1) 12.84%, var(--bg-gradient-dusk-2) 85.99%);
+}

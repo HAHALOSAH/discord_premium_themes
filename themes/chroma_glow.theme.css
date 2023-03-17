@@ -1,0 +1,20 @@
+/**
+ * @name Chroma Glow
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-chroma-glow-1: hsl(var(--bg-gradient-chroma-glow-1-hsl)/1);
+    --bg-gradient-chroma-glow-1-hsl: 183 calc(var(--saturation-factor, 1)*86.3%) 40.2%;
+    --bg-gradient-chroma-glow-2: hsl(var(--bg-gradient-chroma-glow-2-hsl)/1);
+    --bg-gradient-chroma-glow-2-hsl: 258 calc(var(--saturation-factor, 1)*89.8%) 46.3%;
+    --bg-gradient-chroma-glow-3: hsl(var(--bg-gradient-chroma-glow-3-hsl)/1);
+    --bg-gradient-chroma-glow-3-hsl: 298 calc(var(--saturation-factor, 1)*90.9%) 34.3%;
+    --bg-gradient-chroma-glow-4: hsl(var(--bg-gradient-chroma-glow-4-hsl)/1);
+    --bg-gradient-chroma-glow-4-hsl: 265 calc(var(--saturation-factor, 1)*100%) 66.3%;
+    --bg-gradient-chroma-glow-5: hsl(var(--bg-gradient-chroma-glow-5-hsl)/1);
+    --bg-gradient-chroma-glow-5-hsl: 207 calc(var(--saturation-factor, 1)*75.5%) 50.4%;
+    
+    --custom-theme-background: linear-gradient(128.92deg, var(--bg-gradient-chroma-glow-1) 3.94%, var(--bg-gradient-chroma-glow-2) 26.1%, var(--bg-gradient-chroma-glow-3) 39.82%, var(--bg-gradient-chroma-glow-4) 56.89%, var(--bg-gradient-chroma-glow-5) 76.45%);
+}

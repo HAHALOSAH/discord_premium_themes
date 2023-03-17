@@ -1,0 +1,14 @@
+/**
+ * @name Retro Raincloud
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-retro-raincloud-1: hsl(var(--bg-gradient-retro-raincloud-1-hsl)/1);
+    --bg-gradient-retro-raincloud-1-hsl: 202 calc(var(--saturation-factor, 1)*47%) 42.9%;
+    --bg-gradient-retro-raincloud-2: hsl(var(--bg-gradient-retro-raincloud-2-hsl)/1);
+    --bg-gradient-retro-raincloud-2-hsl: 241 calc(var(--saturation-factor, 1)*29.6%) 61%;
+
+    --custom-theme-background: linear-gradient(148.71deg, var(--bg-gradient-retro-raincloud-1) 5.64%, var(--bg-gradient-retro-raincloud-2) 26.38%, var(--bg-gradient-retro-raincloud-2) 49.92%, var(--bg-gradient-retro-raincloud-1) 73.12%);
+}

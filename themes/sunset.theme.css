@@ -1,0 +1,14 @@
+/**
+ * @name Sunset
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-sunset-1: hsl(var(--bg-gradient-sunset-1-hsl)/1);
+    --bg-gradient-sunset-1-hsl: 259 calc(var(--saturation-factor, 1)*55.6%) 35.3%;
+    --bg-gradient-sunset-2: hsl(var(--bg-gradient-sunset-2-hsl)/1);
+    --bg-gradient-sunset-2-hsl: 22 calc(var(--saturation-factor, 1)*66.7%) 57.6%;
+
+    --custom-theme-background: linear-gradient(141.68deg, var(--bg-gradient-sunset-1) 27.57%, var(--bg-gradient-sunset-2) 71.25%);
+}

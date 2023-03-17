@@ -1,0 +1,18 @@
+/**
+ * @name LoFi Vibes
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-lofi-vibes-1: hsl(var(--bg-gradient-lofi-vibes-1-hsl)/1);
+    --bg-gradient-lofi-vibes-1-hsl: 220 calc(var(--saturation-factor, 1)*83.8%) 80.6%;
+    --bg-gradient-lofi-vibes-2: hsl(var(--bg-gradient-lofi-vibes-2-hsl)/1);
+    --bg-gradient-lofi-vibes-2-hsl: 184 calc(var(--saturation-factor, 1)*57.8%) 78.6%;
+    --bg-gradient-lofi-vibes-3: hsl(var(--bg-gradient-lofi-vibes-3-hsl)/1);
+    --bg-gradient-lofi-vibes-3-hsl: 130 calc(var(--saturation-factor, 1)*46.3%) 78.8%;
+    --bg-gradient-lofi-vibes-4: hsl(var(--bg-gradient-lofi-vibes-4-hsl)/1);
+    --bg-gradient-lofi-vibes-4-hsl: 76 calc(var(--saturation-factor, 1)*48.8%) 75.5%;
+
+    --custom-theme-background: linear-gradient(179.52deg, var(--bg-gradient-lofi-vibes-1) 7.08%, var(--bg-gradient-lofi-vibes-2) 34.94%, var(--bg-gradient-lofi-vibes-3) 65.12%, var(--bg-gradient-lofi-vibes-4) 96.23%);
+}

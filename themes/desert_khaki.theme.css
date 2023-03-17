@@ -1,0 +1,16 @@
+/**
+ * @name Desert Khaki
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-desert-khaki-1: hsl(var(--bg-gradient-desert-khaki-1-hsl)/1);
+    --bg-gradient-desert-khaki-1-hsl: 29 calc(var(--saturation-factor, 1)*32.4%) 86.1%;
+    --bg-gradient-desert-khaki-2: hsl(var(--bg-gradient-desert-khaki-2-hsl)/1);
+    --bg-gradient-desert-khaki-2-hsl: 40 calc(var(--saturation-factor, 1)*41.3%) 78.6%;
+    --bg-gradient-desert-khaki-3: hsl(var(--bg-gradient-desert-khaki-3-hsl)/1);
+    --bg-gradient-desert-khaki-3-hsl: 50 calc(var(--saturation-factor, 1)*49.6%) 75.9%;
+
+    --custom-theme-background: linear-gradient(38.99deg, var(--bg-gradient-desert-khaki-1) 12.92%, var(--bg-gradient-desert-khaki-2) 32.92%, var(--bg-gradient-desert-khaki-3) 52.11%);
+}

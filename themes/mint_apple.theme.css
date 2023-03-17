@@ -1,0 +1,16 @@
+/**
+ * @name Mint Apple
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-mint-apple-1: hsl(var(--bg-gradient-mint-apple-1-hsl)/1);
+    --bg-gradient-mint-apple-1-hsl: 166 calc(var(--saturation-factor, 1)*39.7%) 52.5%;
+    --bg-gradient-mint-apple-2: hsl(var(--bg-gradient-mint-apple-2-hsl)/1);
+    --bg-gradient-mint-apple-2-hsl: 119 calc(var(--saturation-factor, 1)*40.4%) 55.9%;
+    --bg-gradient-mint-apple-3: hsl(var(--bg-gradient-mint-apple-3-hsl)/1);
+    --bg-gradient-mint-apple-3-hsl: 87 calc(var(--saturation-factor, 1)*48.3%) 59.8%;
+    
+    --custom-theme-background: linear-gradient(180deg, var(--bg-gradient-mint-apple-1) 6.15%, var(--bg-gradient-mint-apple-2) 48.7%, var(--bg-gradient-mint-apple-3) 93.07%);
+}

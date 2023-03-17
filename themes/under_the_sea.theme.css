@@ -1,0 +1,16 @@
+/**
+ * @name Under the Sea
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-under-the-sea-1: hsl(var(--bg-gradient-under-the-sea-1-hsl)/1);
+    --bg-gradient-under-the-sea-1-hsl: 115 calc(var(--saturation-factor, 1)*10.5%) 42.9%;
+    --bg-gradient-under-the-sea-2: hsl(var(--bg-gradient-under-the-sea-2-hsl)/1);
+    --bg-gradient-under-the-sea-2-hsl: 159 calc(var(--saturation-factor, 1)*20.4%) 43.3%;
+    --bg-gradient-under-the-sea-3: hsl(var(--bg-gradient-under-the-sea-3-hsl)/1);
+    --bg-gradient-under-the-sea-3-hsl: 175 calc(var(--saturation-factor, 1)*10.9%) 46.7%;
+    
+    --custom-theme-background: linear-gradient(179.14deg, var(--bg-gradient-under-the-sea-1) 1.91%, var(--bg-gradient-under-the-sea-2) 48.99%, var(--bg-gradient-under-the-sea-3) 96.35%);
+}

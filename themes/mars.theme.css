@@ -1,0 +1,14 @@
+/**
+ * @name Mars
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-mars-1: hsl(var(--bg-gradient-mars-1-hsl)/1);
+    --bg-gradient-mars-1-hsl: 15 calc(var(--saturation-factor, 1)*36.3%) 39.4%;
+    --bg-gradient-mars-2: hsl(var(--bg-gradient-mars-2-hsl)/1);
+    --bg-gradient-mars-2-hsl: 0 calc(var(--saturation-factor, 1)*36.2%) 41.2%;
+    
+    --custom-theme-background: linear-gradient(170.82deg, var(--bg-gradient-mars-1) 14.61%, var(--bg-gradient-mars-2) 74.62%);
+}

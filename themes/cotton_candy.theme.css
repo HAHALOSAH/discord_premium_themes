@@ -1,0 +1,14 @@
+/**
+ * @name Cotton Candy
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-cotton-candy-1: hsl(var(--bg-gradient-cotton-candy-1-hsl)/1);
+    --bg-gradient-cotton-candy-1-hsl: 349 calc(var(--saturation-factor, 1)*76.8%) 81.4%;
+    --bg-gradient-cotton-candy-2: hsl(var(--bg-gradient-cotton-candy-2-hsl)/1);
+    --bg-gradient-cotton-candy-2-hsl: 226 calc(var(--saturation-factor, 1)*92.6%) 84.1%;
+
+    --custom-theme-background: linear-gradient(180.14deg, var(--bg-gradient-cotton-candy-1) 8.5%, var(--bg-gradient-cotton-candy-2) 94.28%);
+}

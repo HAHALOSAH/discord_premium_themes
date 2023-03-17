@@ -1,0 +1,14 @@
+/**
+ * @name Crimson Moon
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-crimson-moon-1: hsl(var(--bg-gradient-crimson-moon-1-hsl)/1);
+    --bg-gradient-crimson-moon-1-hsl: 0 calc(var(--saturation-factor, 1)*88.6%) 31%;
+    --bg-gradient-crimson-moon-2: hsl(var(--bg-gradient-crimson-moon-2-hsl)/1);
+    --bg-gradient-crimson-moon-2-hsl: 0 calc(var(--saturation-factor, 1)*0%) 0%;
+
+    --custom-theme-background: linear-gradient(64.92deg, var(--bg-gradient-crimson-moon-1) 16.17%, var(--bg-gradient-crimson-moon-2) 72%);
+}

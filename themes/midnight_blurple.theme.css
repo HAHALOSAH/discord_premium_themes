@@ -1,0 +1,14 @@
+/**
+ * @name Midnight Blurple
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-midnight-blurple-1: hsl(var(--bg-gradient-midnight-blurple-1-hsl)/1);
+    --bg-gradient-midnight-blurple-1-hsl: 245 calc(var(--saturation-factor, 1)*55.1%) 53.7%;
+    --bg-gradient-midnight-blurple-2: hsl(var(--bg-gradient-midnight-blurple-2-hsl)/1);
+    --bg-gradient-midnight-blurple-2-hsl: 259 calc(var(--saturation-factor, 1)*74.5%) 10.8%;
+
+    --custom-theme-background: linear-gradient(48.17deg, var(--bg-gradient-midnight-blurple-1) 11.21%, var(--bg-gradient-midnight-blurple-2) 61.92%);
+}

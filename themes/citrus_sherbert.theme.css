@@ -1,0 +1,14 @@
+/**
+ * @name Citrus Sherbert
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-citrus-sherbert-1: hsl(var(--bg-gradient-citrus-sherbert-1-hsl)/1);
+    --bg-gradient-citrus-sherbert-1-hsl: 40 calc(var(--saturation-factor, 1)*88.7%) 58.2%;
+    --bg-gradient-citrus-sherbert-2: hsl(var(--bg-gradient-citrus-sherbert-2-hsl)/1);
+    --bg-gradient-citrus-sherbert-2-hsl: 18 calc(var(--saturation-factor, 1)*81.5%) 63.9%;
+
+    --custom-theme-background: linear-gradient(180deg, var(--bg-gradient-citrus-sherbert-1) 31.1%, var(--bg-gradient-citrus-sherbert-2) 67.09%);
+}
