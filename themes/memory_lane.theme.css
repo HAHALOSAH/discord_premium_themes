@@ -1,0 +1,14 @@
+/**
+ * @name Memory Lane
+ * @author Discord
+ * @version 0.0.1
+ */
+
+html {
+    --bg-gradient-easter-egg-1: hsl(var(--bg-gradient-easter-egg-1-hsl)/1);
+    --bg-gradient-easter-egg-1-hsl: 227 calc(var(--saturation-factor, 1)*58.4%) 65.1%;
+    --bg-gradient-easter-egg-2: hsl(var(--bg-gradient-easter-egg-2-hsl)/1);
+    --bg-gradient-easter-egg-2-hsl: 227 calc(var(--saturation-factor, 1)*31%) 44.3%;
+
+    --custom-theme-background: linear-gradient(180deg, var(--bg-gradient-easter-egg-1) 4%, var(--bg-gradient-easter-egg-2) 96%);
+}
