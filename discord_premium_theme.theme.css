@@ -157,7 +157,7 @@ html {
 }
 
  .children-3xh0VB:after {
-    content: unset
+    content: unset !important
 }
 
 .theme-dark .preview-QJ3OG3 {
@@ -174,8 +174,8 @@ html {
     border: 1px solid var(--background-modifier-accent)
 }
 
- .form-3gdLxP:before {
-    content: unset
+.form-3gdLxP:before {
+    content: unset !important
 }
 
 .theme-light .modeMuted-2T4MDZ .icon-2W8DHg,.theme-light .modeMuted-2T4MDZ .name-28HaxV {
