@@ -5,29 +5,27 @@
  * @version 0.0.1
  */
 
-.theme-dark .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-track {
-    background-size: 200vh;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(var(--bg-overlay-color)/.4)), to(rgb(var(--bg-overlay-color)/.4))), var(-);
-    background-image: linear-gradient(rgb(var(--bg-overlay-color)/.4), rgb(var(--bg-overlay-color)/.4)), var(-)
-}
-
 .theme-dark .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-thumb,
 .theme-dark .customTheme-3QAYZq.thin-RnSY0a::-webkit-scrollbar-thumb {
-    background-size: 200vh;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))), to(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)))), var(-);
-    background-image: linear-gradient(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)), rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))), var(-)
+    background-color: #00FFFF; /* Neon blue */
 }
 
-.theme-light .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-track {
-    background-size: 200vh;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2))), to(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)))), var(-);
-    background-image: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2))), var(-)
-}
 
 .theme-light .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-thumb,
 .theme-light .customTheme-3QAYZq.thin-RnSY0a::-webkit-scrollbar-thumb {
-    background-size: 100vh;
-    background-image: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3))
+    background-color: #00FFFF; /* Neon blue */
+}
+
+
+.theme-dark .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-track,
+.theme-dark .customTheme-3QAYZq.thin-RnSY0a::-webkit-scrollbar-track {
+    background: linear-gradient(to bottom, #106c74, #18487c); /* Gradient from neon blue to dark blue */
+}
+
+
+.theme-light .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-track,
+.theme-light .customTheme-3QAYZq.thin-RnSY0a::-webkit-scrollbar-track {
+    background: linear-gradient(to bottom, #106c74, #18487c); /* Gradient from neon blue to dark blue */
 }
 
 .withBackgroundOverride-gzmZco {
